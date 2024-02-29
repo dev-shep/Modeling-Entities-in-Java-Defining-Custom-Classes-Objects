@@ -1,0 +1,73 @@
+package CreatingObject;
+
+import java.util.Random;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*Main main = new Main();
+		System.out.println("main"+ main);
+
+	
+		System.out.println("main"+ main.toString());
+
+	
+		System.out.println("main "+ main.getClass());
+		
+		
+		Object object = new Object();
+		System.out.println("object 1:" + object);
+		
+		System.out.println();
+		
+		Random anotherRandom = new Random();
+		System.out.println("Random 1:" +anotherRandom.getClass());
+		
+		System.out.println();
+		
+		Student alice = new Student();
+		Student bob = new Student();
+		
+		
+		System.out.println("Objeto alice:" + alice.getClass());
+		
+		//System.out.println("Comparando objectos: " + alice == alice);
+
+		
+		System.out.println("Comparando objectos: " + alice.equals(alice));
+		
+		System.out.println("Comparando objectos: " + alice.equals(bob));
+		
+		Student s1 = new Student();
+		System.out.println("An object of the class student (s1)" + s1);
+		
+		System.out.println("ID: "+s1.id +" name: "+s1.name +" gpa: " +s1.gpa);
+		System.out.println();
+
+		Student s2 = new Student();
+		System.out.println("An object of the class student (s2)" + s2);
+		
+		System.out.println("ID: "+s2.id +" name: "+s2.name +" gpa: " +s2.gpa);
+		
+		System.out.println();
+		
+		Student s3 = new Student();
+		s3.id = 223;
+		s3.name = "fiona";
+		s3.gpa = 3.2;
+		
+		System.out.println("An object of the class student (s3)" + s3);
+		
+		System.out.println("ID: "+s3.id +" name: "+s3.name +" gpa: " +s3.gpa);
+		*/
+		
+		Student s1 = new Student(234, "Carolina", 4343.43);
+		System.out.println("An object of the class student (s1)" + s1.id +" "+s1.name+" "+s1.gpa);
+		
+		
+		
+
+	}
+
+}
